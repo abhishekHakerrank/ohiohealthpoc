@@ -1,0 +1,24 @@
+   <soapenv:Body>
+      <urn:CreateRelease2Response>
+         <!--Optional:-->
+         <urn:CreateRelease2Result>
+            <!--Optional:-->
+            <urn:ErrorCodes>
+               <!--Zero or more repetitions:-->
+               <urn1:Error>
+                  <!--Optional:-->
+                  <urn1:Code>?</urn1:Code>
+                  <!--Optional:-->
+                  <urn1:Description>?</urn1:Description>
+               </urn1:Error>
+            </urn:ErrorCodes>
+            <!--Optional:-->
+            <urn:ReleaseID>
+               <!--Optional:-->
+               <urn2:ID>?</urn2:ID>
+               <!--Optional:-->
+               <urn2:Type>?</urn2:Type>
+            </urn:ReleaseID>
+         </urn:CreateRelease2Result>
+      </urn:CreateRelease2Response>
+   </soapenv:Body>

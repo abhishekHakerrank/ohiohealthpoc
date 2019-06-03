@@ -1,0 +1,21 @@
+
+   <soapenv:Body>
+      <urn:ErrorMessage>
+         <!--Optional:-->
+         <urn:MessageTimeStamp>?</urn:MessageTimeStamp>
+         <!--Optional:-->
+         <urn:ProducerSystemId>?</urn:ProducerSystemId>
+         <!--Optional:-->
+         <urn:ProducerSystemMessageId>?</urn:ProducerSystemMessageId>
+         <!--Optional:-->
+         <urn:Integration>?</urn:Integration>
+         <!--Optional:-->
+         <urn:Code>?</urn:Code>
+         <!--Optional:-->
+         <urn:Description>?</urn:Description>
+         <!--Optional:-->
+         <urn:ErrorDetails>?</urn:ErrorDetails>
+         <!--Optional:-->
+         <urn:Message>?</urn:Message>
+      </urn:ErrorMessage>
+   </soapenv:Body>

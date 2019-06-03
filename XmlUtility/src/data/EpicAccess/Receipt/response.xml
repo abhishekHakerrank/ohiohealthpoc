@@ -1,0 +1,9 @@
+   <soapenv:Body>
+      <urn:ReceiptResponse>
+         <!--Optional:-->
+         <urn:ReceiptResult>
+            <!--Optional:-->
+            <OK>?</OK>
+         </urn:ReceiptResult>
+      </urn:ReceiptResponse>
+   </soapenv:Body>

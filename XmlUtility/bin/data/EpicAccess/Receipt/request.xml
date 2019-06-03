@@ -1,0 +1,14 @@
+   <soapenv:Body>
+      <urn:Receipt>
+         <!--Optional:-->
+         <urn:MessageTimeStamp>?</urn:MessageTimeStamp>
+         <!--Optional:-->
+         <urn:ProducerSystemId>?</urn:ProducerSystemId>
+         <!--Optional:-->
+         <urn:ProducerSystemMessageId>?</urn:ProducerSystemMessageId>
+         <!--Optional:-->
+         <urn:Integration>?</urn:Integration>
+         <!--Optional:-->
+         <urn:Code>?</urn:Code>
+      </urn:Receipt>
+   </soapenv:Body>
